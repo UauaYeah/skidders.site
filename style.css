@@ -1,5 +1,12 @@
 body {
     background-repeat: no-repeat;
+    padding: 0px;
+    background-color: #4e54c8;
+    margin: 0px;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
 }
 
 .h1 {
