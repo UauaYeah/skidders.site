@@ -1,0 +1,112 @@
+body {
+    background-repeat: no-repeat;
+    padding: 0px;
+    background-color: #121212;
+    margin: 0px;
+}
+
+.h1 {
+    text-align: center;
+    color: #ffffff;
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-duration: 2.4s;
+    opacity: 0;
+}
+
+.text {
+    position: relative;
+    top: 320px;
+}
+
+.banner {
+    text-align: center;
+    position: relative;
+    top: -100px;
+    left: 800;
+    width: 500px;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+span {
+    display: block;
+}
+
+.button1 a {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    position: relative;
+    top: 370px;
+    left: -220px;
+    width: 170px;
+    height: 60px;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    background-color:rgb(79, 179, 100);
+    border-radius: 8px;
+}
+.button1 a:hover {
+    transform: translateY(-10px);
+}
+
+.button2 a {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    position: relative;
+    top: 310px;
+    left: 10px;
+    width: 170px;
+    height: 60px;
+    color: #000;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    background-color:white;
+    border-radius: 8px;
+}
+.button2 a:hover {
+    transform: translateY(-10px);
+}
+
+.button3 a {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    position: relative;
+    top: 250px;
+    left: 240px;
+    width: 170px;
+    height: 60px;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    background-color:rgb(114, 137, 218);
+    border-radius: 8px;
+}
+.button3 a:hover {
+    transform: translateY(-10px);
+}
