@@ -9,6 +9,7 @@ body {
     text-align: center;
     color: #ffffff;
     animation-name: fadein;
+    
     animation-fill-mode: forwards;
     animation-duration: 2.4s;
     opacity: 0;
